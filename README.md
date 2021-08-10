@@ -1,8 +1,11 @@
 # sonarqube-aws-terraform
 Terraform project which deploys whole infrastructure for SonnarQube using Terraform to AWS cloud. 
 
-## required variables
-terraform.tfvars are not commited to the VCS. Here is a simple example of terraform.tfvars in root directory
+## Backends
+Terraform state is saved in terraform cloud. You should use your own project (it's free).
+
+## Required variables
+terraform.tfvars are not commited to the VCS. Here is a simple example of terraform.tfvars in root directory.
 <pre><code>
 # --- root/terraform.tfvars ---
 
